@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="sp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="945.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lpv2.FXMLDocumentController">
+     <children>
+<AnchorPane id="AnchorPane" fx:id="ap" prefHeight="607.0" prefWidth="953.0">
+   <children>
+       <StackPane fx:id="sp1" layoutX="8.0" prefHeight="586.0" prefWidth="945.0" snapToPixel="false">
+               <children>
+            <Label fx:id="lbl" alignment="TOP_CENTER" prefHeight="539.0" prefWidth="893.0" textAlignment="CENTER" textFill="#f5f3f0" wrapText="true">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children></StackPane>
+            <Label fx:id="lbl1" onMouseDragged="#dragged" onMousePressed="#pressed" prefHeight="27.0" prefWidth="953.0" textFill="#364958" />
+      <ImageView fx:id="image" blendMode="SCREEN" disable="true" fitHeight="246.0" fitWidth="359.0" focusTraversable="true" layoutX="318.0" layoutY="157.0" opacity="0.68" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/iraq-pro-cup.png" />
+         </image>
+      </ImageView>
+      
+            <JFXButton fx:id="btn" layoutX="328.0" layoutY="570.0" onAction="#EXT" prefHeight="27.0" prefWidth="109.0" text="EXIT" textFill="#fcf3f3" />
+      <JFXButton fx:id="btn1" layoutX="517.0" layoutY="570.0" onAction="#lot" prefHeight="27.0" prefWidth="109.0" text="LOT" textFill="#fcf3f3" />
+       <Circle fx:id="circle0" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="40.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle1" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="40.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle2" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="40.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle3" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="40.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle4" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="40.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle5" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="40.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle6" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="40.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle7" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="40.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle8" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="40.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle9" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="40.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle10" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="40.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle11" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="40.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle12" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="40.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle13" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle14" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="40.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle15" fill="#c8d1da" layoutX="86.0" layoutY="149.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <JFXButton fx:id="btn11" layoutX="517.0" layoutY="570.0" onAction="#start" prefHeight="27.0" prefWidth="109.0" text="START" textFill="#fcf3f3" />
+            <Text fx:id="me" fill="#828782" layoutX="40.0" layoutY="553.0" strokeType="OUTSIDE" strokeWidth="0.0" text="develops &amp; designs by : hussein basem">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text fx:id="tt" fill="#b3adb7" fontSmoothingType="LCD" layoutX="65.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="887.0000015497208">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Text>
+            <Circle fx:id="circle16" fill="#c8d1da" layoutX="310.0" layoutY="125.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle31" fill="#c8d1da" layoutX="420.0" layoutY="125.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle18" fill="#c8d1da" layoutX="530.0" layoutY="125.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle17" fill="#c8d1da" layoutX="640.0" layoutY="125.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle19" fill="#c8d1da" layoutX="310.0" layoutY="235.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle22" fill="#c8d1da" layoutX="420.0" layoutY="235.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle21" fill="#c8d1da" layoutX="530.0" layoutY="235.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle20" fill="#c8d1da" layoutX="640.0" layoutY="235.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle23" fill="#c8d1da" layoutX="310.0" layoutY="345.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle26" fill="#c8d1da" layoutX="420.0" layoutY="345.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle25" fill="#c8d1da" layoutX="530.0" layoutY="345.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle24" fill="#c8d1da" layoutX="640.0" layoutY="345.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle27" fill="#c8d1da" layoutX="310.0" layoutY="455.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle30" fill="#c8d1da" layoutX="420.0" layoutY="455.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle29" fill="#c8d1da" layoutX="530.0" layoutY="455.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+            <Circle fx:id="circle28" fill="#c8d1da" layoutX="640.0" layoutY="455.0" radius="50.0" stroke="#d1151500" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
+</children>
+</StackPane>

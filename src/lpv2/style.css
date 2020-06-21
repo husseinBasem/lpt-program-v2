@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 12, 2019, 5:03:00 PM
+    Author     : hussein
+*/
+.root{
+    -fx-background-color: linear-gradient(to bottom,#2A4D69, #4A4E4D);
+    
+   
+    
+    
+}
+
+#lbl{
+    -fx-background-color:linear-gradient(to right,#051E3E, #851E3E);
+  
+}
+#lbl1{
+    -fx-background-color:#2A4D69;
+  
+}
+#lbl1:hover{
+    -fx-background-color:#2A4D69;
+    -fx-cursor:move;
+    
+  
+}
+#btn{
+   -fx-background-radius: 20px;
+   -fx-border-style: solid;
+   -fx-border-radius: 20px;
+   
+   
+   
+}
+#btn1{
+   -fx-background-radius: 20px;
+   -fx-background-color: transparent;
+   -fx-border-style: solid;
+   -fx-border-radius: 20px; 
+}
+#btn11{
+   -fx-background-radius: 20px;
+   -fx-background-color: transparent;
+   -fx-border-style: solid;
+   -fx-border-radius: 20px; 
+}
+
+
+.dialoglayout{
+    -fx-background-color: #131819;
+    -fx-text-fill: white;  
+    
+}
+.dialog-okey{
+   
+    
+    -fx-background-radius: 20px;
+   
+   
+   -fx-border-radius: 20px; 
+   
+   -fx-background-color: #6666ff;
+    -fx-border-color: #6666ff;
+    -fx-text-fill: white;    
+    
+}
+
+.dialog-okey:hover{
+    -fx-background-radius: 20px;
+    
+    -fx-border-radius: 20px; 
+    -fx-background-color: #FFCD42;
+    -fx-border-color: black;
+    -fx-text-fill: black;    
+}
+.animated{
+    -fx-animation:fadeAndScale .3s 1;
+    -fx-transform-origin: center bottom;
+    
+}
+
+.txt {
+   -fx-position: absolute;
+    -fx-left: -100px;
+    -fx-width: 100px;
+    -fx-height: 100px;
+    -fx-background: blue;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    -fx-animation: slide 0.5s;
+    -fx-animation-delay: 2s;
+}
